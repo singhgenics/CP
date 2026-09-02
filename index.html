@@ -106,6 +106,7 @@
   @media (max-width: 900px) { .hero { grid-template-columns: 1fr; gap: 32px; } .reel-phone { margin: 0 auto; } }
   .eyebrow { display: inline-block; font-size: 12.8px; font-weight: 550; letter-spacing: 0.6px; text-transform: uppercase; color: var(--on-primary); background: var(--ink); padding: 5px 10px; border-radius: 4px; }
   .hero h1 { font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 600; line-height: 1.03; letter-spacing: -0.02em; margin: 16px 0 18px; }
+  .hero h1 .hl { color: var(--purple); }
   .hero-sub { max-width: 44ch; font-size: 16.5px; line-height: 1.6; letter-spacing: -0.01em; color: var(--body-mid); font-weight: 400; }
   .hero-meta { display: flex; flex-wrap: wrap; gap: 24px 36px; margin-top: 30px; }
   .hero-meta div { display: flex; flex-direction: column; gap: 3px; }
@@ -241,7 +242,7 @@
   <header class="hero" id="hero">
     <div>
       <span class="eyebrow" data-reveal style="--i:0">The Brain &amp; Performance Centre</span>
-      <h1 data-reveal style="--i:1">The Individual Path</h1>
+      <h1 data-reveal style="--i:1">The <span class="hl">Individual</span> Path</h1>
       <p class="hero-sub" data-reveal style="--i:2">A brand film following one child's route through the clinic's assessment and treatment pathway — told through the voice of the clinic's medical director, from first consultation to a family's first steps forward at home.</p>
       <dl class="hero-meta" data-reveal style="--i:3">
         <div><dt>Runtime</dt><dd>&asymp; 90 sec</dd></div>
